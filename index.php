@@ -157,6 +157,18 @@
       '</style>'
     );
   }
-}); })(jQuery);
+}); 
+$('a.scrolly-middle').bind('click', function(event) {
+		var $anchor = $(this);
+		$('html, body').stop().animate({
+				scrollTop: ($('#banner').offset().top)
+		}, 1000);
+		event.preventDefault();
+});
+/* $('.scrolly-middle').click(function() {
+$("html, body").animate({ scrollTop: $('#banner').offset().top }, 1000);
+})
+ */
+})(jQuery);
 </script>
 <div class="poptrox-overlay" style="position: fixed; left: 0px; top: 0px; z-index: 1000; width: 100%; height: 100%; text-align: center; cursor: pointer; display: none;"><div style="display:inline-block;height:100%;vertical-align:middle;"></div><div style="position:absolute;left:0;top:0;width:100%;height:100%;background:#0a1919;opacity:0.75;filter:alpha(opacity=75);"></div><div class="poptrox-popup" style="display: none; vertical-align: middle; position: relative; z-index: 1; cursor: auto; min-width: 200px; min-height: 100px;"><div class="loader" style="display: none;"></div><div class="pic" style="display: none;"></div><div class="caption" style="display: none;"></div><span class="closer" style="cursor: pointer; display: none;">?</span><div class="nav-previous" style="display: none;"></div><div class="nav-next" style="display: none;"></div></div></div></body></html>
