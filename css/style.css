@@ -1636,6 +1636,10 @@ button.style3:hover,
     position: relative;
     padding: 40px 0 0px 0;
 }
+.box.style2 .ginner {
+    position: relative;
+    padding: 60px 0 0px 0;
+}
 .box.style2 .inner:after {
     content: '';
     display: block;

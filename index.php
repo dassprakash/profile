@@ -57,7 +57,7 @@
 			</section>
 			<!-- Feature 1 -->
 			<article id="experience" class="container box style1 right">
-				<a href="http://thisys.com/" class="image fit"><img src="images/thisys_logo.png" alt=""></a>
+				<a href="http://thisys.com/" class="image fit" target="_blank"><img src="images/thisys_logo.png" alt=""></a>
 				<div class="inner">
 					<header>
 						<h4>Thisys Software Solution</h4>
@@ -69,7 +69,7 @@
 			</article>
 			<!-- Feature 2 -->
 			<article class="container box style1 left">
-				<a href="http://world360.in" class="image fit"><img src="images/logo.png" alt=""></a>
+				<a href="http://world360.in" class="image fit" target="_blank"><img src="images/logo.png" alt=""></a>
 				<div class="inner">
 					<header>
 						<h2>My Own Website<br>  </h2>
@@ -81,7 +81,7 @@
 			</article>
 			<!-- Feature 3 -->
 			<article class="container box style1 right">
-				<a href="http://www.annaidecorations.com" class="image fit"><img src="images/annai_logo.png" alt=""></a>
+				<a href="http://www.annaidecorations.com" class="image fit" target="_blank"><img src="images/annai_logo.png" alt=""></a>
 				<div class="inner">
 					<header>
 						<h2>I have maintain this Website<br>  </h2>
@@ -93,13 +93,13 @@
 			</article>
 			<!-- Feature 4 -->
 			<article class="container box style1 left">
-				<a href="https://www.dassprakash.com/budjet/" class="image fit"><img src="images/annai_logo.png" alt=""></a>
+				<a href="https://www.dassprakash.com/budjet/" class="image fit" target="_blank"><img src="images/budget_logo.png" alt=""></a>
 				<div class="inner">
 					<header>
 						<h2>I have develop this Website<br>  </h2>
-						www.annaidecorations.com
+						https://www.dassprakash.com/budjet/
 					</header>
-					<p>Angular,bootsrap,PHPMysql,Highchart</p>
+					<p>Angularjs,bootsrap,PHP Mysql,Highchart</p>
 					<p>This website maintion monthly budget for home.</p>
 				</div>
 			</article><!-- Portfolio -->
@@ -107,53 +107,58 @@
 				<header><h2>My Skills</h2>
 					<p>I have 4 years experience in web development. I have good skill in following technology.</p>
 				</header>
-				<div class="inner gallery">
-					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/01.jpg" alt=""></a>
+				<div class="ginner gallery">
+					<div class="">
+						<!--<div class="3u 12u(mobile)"><a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/01.jpg" alt=""></a>
 						</div>
 						<div class="3u 12u(mobile)"><a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/02.png" alt=""></a></div>
 						<div class="3u 12u(mobile)"><a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/03.png" alt=""></a></div>
-						<div class="3u 12u(mobile)"><a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/04.png" alt=""></a></div>
+						<div class="3u 12u(mobile)"><a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/04.png" alt=""></a></div>-->
+						<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:100px;overflow:hidden;visibility:hidden;">
+						<!-- Loading Screen -->
+						<div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+								<div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+								<div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+						</div>
+						<div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
+								<div>
+										<img data-u="image" src="images/01.jpg" />
+								</div>
+								<div>
+										<img data-u="image" src="images/02.png" />
+								</div>
+								<div>
+										<img data-u="image" src="images/03.png" />
+								</div>
+								<div>
+										<img data-u="image" src="images/04.png" />
+								</div>
+								<div>
+										<img data-u="image" src="images/05.png" />
+								</div>
+								<div>
+										<img data-u="image" src="images/06.png" />
+								</div>
+								<div>
+										<img data-u="image" src="images/07.png" />
+								</div>            
+								<div>
+										<img data-u="image" src="images/08.png" />
+								</div>
+								
+						</div>
+				</div>
+    <!-- #endregion Jssor Slider End -->
 					</div>
 					
 				</div>
 			</article>
 			<!-- Contact -->
+			<!-- Contact -->
 			<article class="container box style3">
-				<header><h2>Get in Touch </h2>
-					 <p>
-					 	<?php 
-					 	if($scucess)
-					 	{
-					 		echo 'Thankyou for your feedback';
-					 	}
-					 	if($error)
-					 	{
-					 		echo 'Error please try after sometime!';
-					 	}
-					 	?>
-					 </p>
+				<header><h2>Get in Touch </h2><br><a href="mailto:dassprakash819@gmail.com">dassprakash819@gmail.com</a>
 				</header>
-				<form method="post" action="">
-					<div class="row 50%">
-						<div class="6u 12u$(mobile)">
-							<input type="text" required class="text" name="name" placeholder="Name">
-						</div>
-						<div class="6u$ 12u$(mobile)">
-							<input type="text" required class="text" name="email" placeholder="Email">
-						</div>
-						<div class="12u$">
-							<textarea name="message" required placeholder="Message"></textarea>
-	 					</div>
-	 					<div class="12u$">
-	 						<ul class="actions">
-	 							<li>
-	 								<input type="submit" name="submit" value="SendMessage">
-	 							</li>
-	 						</ul>
-	 					</div>
- 					</div>
- 				</form></article>
+			</article>
  <section id="footer">
  	<ul class="icons">
  		<li><a href="https://twitter.com/j_dass" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -171,7 +176,42 @@
  
  
  
- 
+ <script src="js/jssor.slider-22.2.16.mini.js" type="text/javascript"></script>
+ <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $Idle: 0,
+              $AutoPlaySteps: 4,
+              $SlideDuration: 2500,
+              $SlideEasing: $Jease$.$Linear,
+              $PauseOnHover: 4,
+              $SlideWidth: 140,
+              $Cols: 7
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 809);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script>
  
  <script>(function($) { $(function() {
   if (skel.vars.os == 'ios' && window.self !== window.top) {
