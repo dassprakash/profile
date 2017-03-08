@@ -35,19 +35,19 @@
 </head>
 	<body class="" style="background-position: center 0px;">
 		<!-- Header -->
-		<section id="header" style="padding: 192.5px 0px;">
+		<section id="header" style="padding: 200.5px 0px;">
 			<header>
 				<h1>Dass prakash. J</h1>
-				<p>PHP Developer</p></header>
+				<p>Back-end Developer</p></header>
 			<footer><a href="#banner" class="button style2 scrolly-middle">About Me</a></footer>
 		</section><!-- Banner -->
-		<section id="banner">
+		<section id="banner" style="padding: 192.5px 0px;">
 			<header>
 				<h2>About Me</h2>
 			</header>
-			<p>Im a 28 year old Front-end developer located in Thanjavur, India.
+			<p>Im a 28 year old Back-end developer located in Thanjavur, India.
 			I currently work for a Thisys software solution.
-			I have worked here since April 2012. 
+			I have worked here since May 2012. 
 			While working here I have had the chance to work on some very exciting projects. I have learnt a lot about building responsive website and user-friendly websites.</p>
 			<br/>
 			<br/>
@@ -77,6 +77,30 @@
 					</header>
 					<p>Wordpress website</p>
 					<p>This is my dream website.This site is based on News portal website.</p><p>This is purely a Responsive Website.We use wordprees for this website.</p>
+				</div>
+			</article>
+			<!-- Feature 3 -->
+			<article class="container box style1 right">
+				<a href="http://www.annaidecorations.com" class="image fit"><img src="images/annai_logo.png" alt=""></a>
+				<div class="inner">
+					<header>
+						<h2>I have maintain this Website<br>  </h2>
+						www.annaidecorations.com
+					</header>
+					<p>Responsive website</p>
+					<p>I have work for my client annidecoration</p>
+				</div>
+			</article>
+			<!-- Feature 4 -->
+			<article class="container box style1 left">
+				<a href="https://www.dassprakash.com/budjet/" class="image fit"><img src="images/annai_logo.png" alt=""></a>
+				<div class="inner">
+					<header>
+						<h2>I have develop this Website<br>  </h2>
+						www.annaidecorations.com
+					</header>
+					<p>Angular,bootsrap,PHPMysql,Highchart</p>
+					<p>This website maintion monthly budget for home.</p>
 				</div>
 			</article><!-- Portfolio -->
 			<article class="container box style2">
