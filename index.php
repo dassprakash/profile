@@ -52,11 +52,11 @@
 			<br/>
 			<br/>
 			<footer>
-				<a href="#first" class="button style2 scrolly">Experience</a>
+				<a href="#experience" class="button style2 scrolly">Experience</a>
 			</footer>
 			</section>
 			<!-- Feature 1 -->
-			<article id="first" class="container box style1 right">
+			<article id="experience" class="container box style1 right">
 				<a href="http://thisys.com/" class="image fit"><img src="images/thisys_logo.png" alt=""></a>
 				<div class="inner">
 					<header>
@@ -162,6 +162,13 @@ $('a.scrolly-middle').bind('click', function(event) {
 		var $anchor = $(this);
 		$('html, body').stop().animate({
 				scrollTop: ($('#banner').offset().top)
+		}, 1000);
+		event.preventDefault();
+});
+$('a.scrolly').bind('click', function(event) {
+		var $anchor = $(this);
+		$('html, body').stop().animate({
+				scrollTop: ($('#experience').offset().top)
 		}, 1000);
 		event.preventDefault();
 });
