@@ -29,6 +29,7 @@
 	  ga('send', 'pageview');
 
 	</script>
+	<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet"  href="css/style.css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
@@ -99,58 +100,34 @@
 						<h2>I have develop this Website<br>  </h2>
 						https://www.dassprakash.com/budjet/
 					</header>
-					<p>Angularjs,bootsrap,PHP Mysql,Highchart</p>
-					<p>This website maintion monthly budget for home.</p>
+					<p>Angularjs,Bootsrap,PHP Mysql,Highchart</p>
+					<p>This website used for maintain home budget.</p>
 				</div>
 			</article><!-- Portfolio -->
 			<article class="container box style2">
 				<header><h2>My Skills</h2>
 					<p>I have 4 years experience in web development. I have good skill in following technology.</p>
 				</header>
-				<div class="ginner gallery">
-					<div class="">
-						<!--<div class="3u 12u(mobile)"><a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/01.jpg" alt=""></a>
-						</div>
-						<div class="3u 12u(mobile)"><a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/02.png" alt=""></a></div>
-						<div class="3u 12u(mobile)"><a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/03.png" alt=""></a></div>
-						<div class="3u 12u(mobile)"><a class="image fit" style="cursor: pointer; outline: 0px;"><img src="images/04.png" alt=""></a></div>-->
-						<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:100px;overflow:hidden;visibility:hidden;">
-						<!-- Loading Screen -->
-						<div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
-								<div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-								<div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-						</div>
-						<div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
-								<div>
-										<img data-u="image" src="images/01.jpg" />
-								</div>
-								<div>
-										<img data-u="image" src="images/02.png" />
-								</div>
-								<div>
-										<img data-u="image" src="images/03.png" />
-								</div>
-								<div>
-										<img data-u="image" src="images/04.png" />
-								</div>
-								<div>
-										<img data-u="image" src="images/05.png" />
-								</div>
-								<div>
-										<img data-u="image" src="images/06.png" />
-								</div>
-								<div>
-										<img data-u="image" src="images/07.png" />
-								</div>            
-								<div>
-										<img data-u="image" src="images/08.png" />
-								</div>
-								
-						</div>
-				</div>
-    <!-- #endregion Jssor Slider End -->
-					</div>
+				<div class="inner gallery">
+					<section id="dg-container" class="dg-container">
+				<div class="dg-wrapper">
+					<a href="#"><img src="images/01.jpg" alt="image01"><div></div></a>
+					<a href="#"><img src="images/02.png" alt="image02"><div></div></a>
+					<a href="#"><img src="images/03.png" alt="image03"><div></div></a>
+					<a href="#"><img src="images/04.png" alt="image04"><div></div></a>
+					<a href="#"><img src="images/05.png" alt="image05"><div></div></a>
+					<a href="#"><img src="images/06.png" alt="image06"><div></div></a>
+					<a href="#"><img src="images/07.png" alt="image07"><div></div></a>
+					<a href="#"><img src="images/08.png" alt="image08"><div></div></a>
 					
+					
+				</div>
+				<!--nav>	
+					<span class="dg-prev">&lt;</span>
+					<span class="dg-next">&gt;</span>
+				</nav-->
+			</section>
+        
 				</div>
 			</article>
 			<!-- Contact -->
@@ -176,42 +153,14 @@
  
  
  
- <script src="js/jssor.slider-22.2.16.mini.js" type="text/javascript"></script>
- <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-
-            var jssor_1_options = {
-              $AutoPlay: true,
-              $Idle: 0,
-              $AutoPlaySteps: 4,
-              $SlideDuration: 2500,
-              $SlideEasing: $Jease$.$Linear,
-              $PauseOnHover: 4,
-              $SlideWidth: 140,
-              $Cols: 7
-            };
-
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-            /*responsive code begin*/
-            /*remove responsive code if you don't want the slider scales while window resizing*/
-            function ScaleSlider() {
-                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-                if (refSize) {
-                    refSize = Math.min(refSize, 809);
-                    jssor_1_slider.$ScaleWidth(refSize);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
-            ScaleSlider();
-            $(window).bind("load", ScaleSlider);
-            $(window).bind("resize", ScaleSlider);
-            $(window).bind("orientationchange", ScaleSlider);
-            /*responsive code end*/
-        });
-    </script>
+ <script type="text/javascript" src="js/jquery.gallery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#dg-container').gallery({
+					autoplay	:	true
+				});
+			});
+		</script/>
  
  <script>(function($) { $(function() {
   if (skel.vars.os == 'ios' && window.self !== window.top) {
