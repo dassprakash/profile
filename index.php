@@ -46,10 +46,10 @@
 			<header>
 				<h2>About Me</h2>
 			</header>
-			<p>Im a 28 year old Back-end developer located in Thanjavur, India.
-			I currently work for a Thisys software solution.
-			I have worked here since May 2012. 
-			While working here I have had the chance to work on some very exciting projects. I have learnt a lot about building responsive website and user-friendly websites.</p>
+			<p>Im a 28 years old Back-end developer living in Thanjavur, Tamilnadu, India.
+			I currently work for Thisys software solution.
+			I have been working here since May 2012. 
+			During this period I had chance to work on some very exciting projects and learnt more about building responsive website and user-friendly websites.</p>
 			<br/>
 			<br/>
 			<footer>
@@ -77,7 +77,7 @@
 						www.world360.in
 					</header>
 					<p>Wordpress website</p>
-					<p>This is my dream website.This site is based on News portal website.</p><p>This is purely a Responsive Website.We use wordprees for this website.</p>
+					<p>This is my dream website.This site is based on News portal website.</p><p>This is purely a Responsive Website.I use wordprees for this website.</p>
 				</div>
 			</article>
 			<!-- Feature 3 -->
@@ -89,7 +89,7 @@
 						www.annaidecorations.com
 					</header>
 					<p>Responsive website</p>
-					<p>I have work for my client annidecoration</p>
+					<p>I have work for my client annaidecoration</p>
 				</div>
 			</article>
 			<!-- Feature 4 -->
@@ -101,7 +101,7 @@
 						https://www.dassprakash.com/budjet/
 					</header>
 					<p>Angularjs,Bootsrap,PHP Mysql,Highchart</p>
-					<p>This website used for maintain home budget.</p>
+					<p>The user can create monthly budget using this site.User can maintain the Income and Expenditure.</p>
 				</div>
 			</article><!-- Portfolio -->
 			<article class="container box style2">
